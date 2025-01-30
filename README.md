@@ -16,7 +16,7 @@
             const adminPassword = document.getElementById('adminPassword').value;
 
             // Send data to Google Apps Script
-            const response = await fetch('https://script.google.com/macros/s/AKfycbwm0yHQ7jX7pRtyzyh5PaUpB1O3bEe-zKudqfnukpwrCX-T7RdHj6a03gJszzhq16U/exec', {
+            const response = await fetch('https://script.google.com/macros/s/AKfycbyDdRnN1WmYzmKDlxy3uA85y_oaxWcSzJmvOqnhXEZuuvrLRgjikeI4WW8J0naQ6y4/exec', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
